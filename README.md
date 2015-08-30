@@ -9,11 +9,11 @@ Basic NodeJS and MongoDB RESTful API. This project allows to create, get, update
 
 Now, using [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) or your favorite REST simulator, you can work with the following requests:
 
-* **GET http://localhost:3000/users:** get all users.
-* **POST http://localhost:3000/users:** create a new user passing *"email"* and *"password"* attributes in JSON format.
-* **GET http://localhost:3000/users/:id:** get an user by its identifier.
-* **PUT http://localhost:3000/users/:id:** update an existing user passing the new *"email"* and *"password"* attributes in JSON format.
-* **DELETE http://localhost:3000/users/:id:** delete an user by its identifier.
+* **GET** [localhost:3000/users](localhost:3000/users): get all users.
+* **POST** [localhost:3000/users](localhost:3000/users): create a new user passing *"email"* and *"password"* attributes in JSON format.
+* **GET** [localhost:3000/users/:id](localhost:3000/users/:id): get an user by its identifier.
+* **PUT** [localhost:3000/users/:id](localhost:3000/users/:id): update an existing user passing the new *"email"* and *"password"* attributes in JSON format.
+* **DELETE** [localhost:3000/users/:id](localhost:3000/users/:id): delete an user by its identifier.
 
 ***
 
